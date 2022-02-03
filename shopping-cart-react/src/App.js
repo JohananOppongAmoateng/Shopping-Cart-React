@@ -1,9 +1,11 @@
 import NavigationBar from "./components/NavigationBar";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <div className="App">
       <NavigationBar/>
-      <p>Jesus</p>
+      <Footer/>
     </div>
   );
 }
